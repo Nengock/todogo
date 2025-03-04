@@ -1,0 +1,23 @@
+# Binaries
+todo-app
+
+# Build directories
+/build
+/bin
+
+# Dependency directories
+/vendor
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Go specific
+*.out

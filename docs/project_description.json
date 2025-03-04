@@ -1,0 +1,31 @@
+{
+    "Project": "Command-Line To-Do List Manager",
+    "Focus": "Command-Line Interface (CLI) Development and File I/O",
+    "Objective": "Develop a simple CLI application that allows users to manage a to-do list, demonstrating effective CLI design and file handling in Go.",
+    "Instructions": [
+      {
+        "Step": "Project Setup",
+        "Details": "Initialize a new Go module."
+      },
+      {
+        "Step": "Define Data Structures",
+        "Details": "Create a 'Task' struct with fields for ID, description, and completion status."
+      },
+      {
+        "Step": "Implement File I/O Functions",
+        "Details": "Write functions to read tasks from a JSON file and write tasks to a JSON file."
+      },
+      {
+        "Step": "Develop CLI Commands",
+        "Details": "Implement commands to add, list, complete, and delete tasks using the 'flag' package to parse command-line arguments."
+      },
+      {
+        "Step": "Handle Edge Cases",
+        "Details": "Ensure the application handles scenarios like adding duplicate tasks or completing non-existent tasks gracefully."
+      },
+      {
+        "Step": "Containerization",
+        "Details": "Create a 'Dockerfile' to containerize the application, build and run the Docker container."
+      }
+    ]
+  }
