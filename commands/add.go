@@ -6,6 +6,7 @@ import (
 	"todo-app/task"
 )
 
+// AddTask adds a new task to the tasks list.
 func AddTask(description string) {
 	tasks, err := task.ReadTasks("tasks.json")
 	if err != nil {
